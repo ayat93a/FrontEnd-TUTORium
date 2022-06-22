@@ -1,8 +1,17 @@
+
 import React from 'react'
+import Hero from './Components/Hero'
+import Navbar from './Components/Navbar'
+
+
 
 const index = () => {
   return (
-    <div>index</div>
+    <div>
+      <Navbar />
+      <Hero />
+      
+    </div>
   )
 }
 
