@@ -4,7 +4,17 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('../pages/assests/bg.webp')",
+      },
+      colors:{
+      navbg : '#f8f8f8'
+      }
+    },
+    
   },
   plugins: [],
 }
+
+

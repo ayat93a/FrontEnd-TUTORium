@@ -1,31 +1,24 @@
 import React from 'react'
-import {RiSearchLine} from 'react-icons/ri'
 
 const Hero = () => {
   return (
     <div className='relative w-full h-screen'>
-        <video className="object-cover w-full h-full" autoPlay loop muted>
-            <source src={require('../assests/beachVid.mp4')} type="video/mp4" />
-        </video>
-       {/* https://github.com/jeremybarbet/next-videos    How to add video to next */}
-       <div className='absolute top-0 left-0 w-full h-full bg-gray-900/30'></div>
-       {/* modify the lighting  */}
+        <div className='.max-w-full .h-auto w-full h-full  bg-hero-pattern bg-fixed md:bg-right-top '>
+        </div>
 
 
-       <div className='absolute top-0 left-0 flex flex-col justify-center w-full h-full p-4 text-center text-white'>
-        <h1 className='text-xl md:text-3xl'> First Class Tutor </h1>
-        <h2 className='text-xl md:text-3xl'> Most Amazing Experiences in the World</h2>
-        <form className='flex justify-between max-w-[700px] items-center mx-auto w-full p-2 border rounded-md mt-2 bg-gray-100/90 text-black'>
-            <div>
-                <input className='bg-transparent w-[400px] sm:w-[630px] focus:outline-none' type='text' placeholder='What type of tutorials would you like to see?'></input>
-            </div>
-            <div>
-                <button className='duration-150 ease-in icons hover:scale-110'>
-                    <RiSearchLine className='ease-in duration-125 icons hover:scale-125' size={20} />
-                </button>
-            </div>
-        </form>
+       <div className='absolute top-0 left-0 flex flex-col justify-center w-full h-full p-4 text-white max-w-[650px]'>
+        <p className='pb-4 text-xl md:text-2xl'>Welcome to TUTORium</p>
+        <h1 className='text-xl md:text-3xl'> Best Tutorials Expertise</h1>
+        <p className='text-xl md:text-2xl'> WE GUARANTEE THAT YOU WILL HAVE THE Most Amazing Experiences in the World</p>
+        <div className='flex flex-row max-w-[400px] mt-4 justify-between'>
+          <button className='w-3/6 ' type='submit'>Register</button>
+          <button className='w-3/6 ml-2' type='submit'>Login</button>
+        </div>
+        
        </div>
+    
+       
     </div>
   )
 }
