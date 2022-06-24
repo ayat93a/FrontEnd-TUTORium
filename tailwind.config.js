@@ -9,7 +9,8 @@ module.exports = {
         'hero-pattern': "url('../pages/assests/bg.webp')",
       },
       colors:{
-      navbg : '#f8f8f8'
+      regester : '#127A89',
+      login : '#f3f8f2'
       }
     },
     
