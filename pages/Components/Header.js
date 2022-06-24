@@ -13,12 +13,12 @@ const Header = () => {
   }
   
   return (
-      <div className='absolute z-10 flex items-center justify-between w-full h-20 px-4 text-white bg-'>
+      <div className='absolute z-10 flex items-center justify-around w-full h-20 px-4 text-white bg-'>
       <div>
       <h1 onClick={handelNav} className={logo ? 'hidden' : 'block'}>TUTORium.</h1>
       </div>
       
-      <ul className='hidden md:flex'>
+      <ul className='hidden lg:flex'>
         <li className='duration-150 ease-in hover:scale-110'>Home</li>
         <li className='duration-150 ease-in hover:scale-110'>Categories</li>
         <li className='duration-150 ease-in hover:scale-110'>Our-Vision</li>
