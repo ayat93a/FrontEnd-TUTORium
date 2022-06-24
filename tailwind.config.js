@@ -10,7 +10,7 @@ module.exports = {
       },
       colors:{
       regester : '#127A89',
-      login : '#f3f8f2'
+      login : '#f3f8f2',
       }
     },
     
